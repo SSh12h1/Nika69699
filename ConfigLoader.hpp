@@ -9,16 +9,16 @@ struct ConfigLoader {
     }
 
     //features
-    bool FEATURE_AIMBOT_ON = ;
-    bool FEATURE_SENSE_ON = ;
+    bool FEATURE_AIMBOT_ON = false;
+    bool FEATURE_SENSE_ON = false;
     bool FEATURE_ITEM_GLOW_ON = true;
-    bool FEATURE_QUICKTURN_ON = ;
-    bool FEATURE_SPECTATOR_ON = ;
-    bool FEATURE_SUPER_GLIDE_ON = ;
-    bool FEATURE_SKINCHANGER_ON = ;
-    bool FEATURE_TRIGGERBOT_ON = ;
-    bool FEATURE_NORECOIL_ON = ;
-    bool FEATURE_PRINT_LEVELS_ON = ;
+    bool FEATURE_QUICKTURN_ON = false;
+    bool FEATURE_SPECTATOR_ON = false;
+    bool FEATURE_SUPER_GLIDE_ON = false;
+    bool FEATURE_SKINCHANGER_ON = false;
+    bool FEATURE_TRIGGERBOT_ON = false;
+    bool FEATURE_NORECOIL_ON = false;
+    bool FEATURE_PRINT_LEVELS_ON = false;
     bool FEATURE_MAP_RADAR_ON = true;
     
     //noRecoil    
