@@ -21,7 +21,7 @@ struct Aim {
         this->cl = ConfigLoada;   
     }
     bool active(){
-        bool aimbotIsOn = cl->FEATURE_AIMBOT_OFF;
+        bool aimbotIsOn = cl->FEATURE_AIMBOT_ON;
         bool combatReady = lp->isCombatReady();
         bool activatedByAttack = cl->AIMBOT_ACTIVATED_BY_ATTACK && lp->inAttack;
         bool activatedByADS = cl->AIMBOT_ACTIVATED_BY_ADS && lp->inZoom;
