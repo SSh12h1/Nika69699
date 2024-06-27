@@ -9,7 +9,7 @@ struct ConfigLoader {
     }
 
     //features
-    bool FEATURE_AIMBOT_ON = false;
+    bool FEATURE_AIMBOT_ON = true;
     bool FEATURE_SENSE_ON = true;
     bool FEATURE_ITEM_GLOW_ON = true;
     bool FEATURE_QUICKTURN_ON = false;
@@ -17,7 +17,7 @@ struct ConfigLoader {
     bool FEATURE_SUPER_GLIDE_ON = true;
     bool FEATURE_SKINCHANGER_ON = false;
     bool FEATURE_TRIGGERBOT_ON = false;
-    bool FEATURE_NORECOIL_ON = false;
+    bool FEATURE_NORECOIL_ON = true;
     bool FEATURE_PRINT_LEVELS_ON = true;
     bool FEATURE_MAP_RADAR_ON = true;
     
