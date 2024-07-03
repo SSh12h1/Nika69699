@@ -32,8 +32,8 @@ struct ConfigLoader {
     int SENSE_MAXRANGE_OVERWALL = 250;
     //aimbot
     bool AIMBOT_ACTIVATED_BY_ATTACK = true;
-    bool AIMBOT_ACTIVATED_BY_ADS = false;
-    bool AIMBOT_ACTIVATED_BY_KEY = false;
+    bool AIMBOT_ACTIVATED_BY_ADS = true;
+    bool AIMBOT_ACTIVATED_BY_KEY = true;
     float AIMBOT_SMOOTH = 20.211;
     float AIMBOT_SPEED = 40.211;
     float AIMBOT_SMOOTH_EXTRA_BY_DISTANCE = 1000;
